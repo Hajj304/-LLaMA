@@ -1,0 +1,8 @@
+n8n-llama-custom-rag/
+├── data/ ← ملفات النصوص أو الدروس الخاصة بك
+│ └── my_knowledge.txt
+├── db/ ← قاعدة بيانات Chroma لتخزين الـ embeddings
+├── embedding.py ← سكربت لتحويل البيانات إلى vectors
+├── query_context.py ← سكربت لاسترجاع السياق المرتبط بالسؤال
+├── .github/workflows/ ← ملفات CI (إن وُجدت)
+└── README.md ← هذا الملف
